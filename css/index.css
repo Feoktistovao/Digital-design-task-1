@@ -1,0 +1,27 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu {
+    width: 358px;
+    height: 100%;
+    background: #CCCCCC;
+    border: 1px solid #000000;
+    position:relative;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.menu-item {
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.menu-item:hover{
+    background: #9C9C9C;
+}
